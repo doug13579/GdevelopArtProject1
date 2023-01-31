@@ -1,0 +1,2347 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "c44486e4-ffc2-429c-a955-8a3863f214e9",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "interactive art",
+    "description": "",
+    "author": "",
+    "windowWidth": 1000,
+    "windowHeight": 1000,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "full.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "full.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Untitled7.png\",\"extension\":\".png\"}",
+        "name": "Untitled7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled8 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled8 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 207\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.66,\\\"sustainPunch\\\":90,\\\"decay\\\":0,\\\"tremoloDepth\\\":58,\\\"tremoloFrequency\\\":29,\\\"frequency\\\":2800,\\\"frequencySweep\\\":-8000,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":27.5,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.6,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":10,\\\"vibratoFrequency\\\":437,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":29,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":3200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":8600,\\\"highPassCutoffSweep\\\":8800,\\\"compression\\\":0.8,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "2023-01-22-1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2023-01-22-1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect2.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 31\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.09,\\\"sustainPunch\\\":0,\\\"decay\\\":0.38,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":500,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"breaker\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":60,\\\"squareDutySweep\\\":-85,\\\"flangerOffset\\\":1,\\\"flangerOffsetSweep\\\":-1,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect2\"},\"localFilePath\":\"assets/New sound effect2.wav\"}",
+        "name": "New sound effect2",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7092091314497692,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Group",
+          "objects": [
+            {
+              "name": "NewSprite1"
+            },
+            {
+              "name": "NewSprite2"
+            },
+            {
+              "name": "NewSprite3"
+            },
+            {
+              "name": "NewSprite4"
+            },
+            {
+              "name": "NewSprite5"
+            },
+            {
+              "name": "NewSprite6"
+            },
+            {
+              "name": "NewSprite7"
+            },
+            {
+              "name": "NewSprite8"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "750dec13-002e-4188-905f-c49a0bec610d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite8",
+          "persistentUuid": "0dbd1cd2-57d4-4c7d-9c9f-a4d638c03c4d",
+          "width": 0,
+          "x": 500,
+          "y": 372,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": true,
+          "name": "FullColor",
+          "persistentUuid": "a06aee85-26fc-4bdf-bc75-ab44d7a35814",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite1",
+          "persistentUuid": "afd54537-61f0-47e6-b0aa-d56043da398b",
+          "width": 0,
+          "x": 500,
+          "y": 82,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "d5dbc4e2-2580-4239-af81-40973e1b00b5",
+          "width": 0,
+          "x": 494,
+          "y": 155,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "24d407ae-53ff-4696-b521-929b3530e12c",
+          "width": 0,
+          "x": 500,
+          "y": 144,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite4",
+          "persistentUuid": "c7e39aa1-ecef-4da4-bd35-35f7e44d6e6d",
+          "width": 0,
+          "x": 500,
+          "y": 249,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite5",
+          "persistentUuid": "32985419-884a-4313-ab61-1a208002917e",
+          "width": 0,
+          "x": 500,
+          "y": 204,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite6",
+          "persistentUuid": "d3937371-7c4a-444e-b35f-6fa4f9ece34a",
+          "width": 0,
+          "x": 500,
+          "y": 100,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite7",
+          "persistentUuid": "57be7426-2254-4eb2-8968-5d1ac7f73001",
+          "width": 0,
+          "x": 501,
+          "y": 314,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "RESETtext",
+          "persistentUuid": "bc438163-fa1f-45b4-bc4f-dc85338b0c8a",
+          "width": 0,
+          "x": -400,
+          "y": -400,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewSprite1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 20.52788491813602,
+                        "y": 22.245404990554157
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1.5873445272445679
+                          },
+                          {
+                            "x": 41,
+                            "y": 1.4173192977905273
+                          },
+                          {
+                            "x": 20.442873001098633,
+                            "y": 45
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 24.598129272460938
+                          },
+                          {
+                            "x": 6.630214691162109,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.935630798339844,
+                            "y": 0
+                          },
+                          {
+                            "x": 17,
+                            "y": 23.296491622924805
+                          },
+                          {
+                            "x": 11.33613395690918,
+                            "y": 52.83364486694336
+                          },
+                          {
+                            "x": 6.9305925369262695,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11.787232367758186,
+                        "y": 33.50065924118388
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 41.981136322021484
+                          },
+                          {
+                            "x": 9.382320404052734,
+                            "y": 0
+                          },
+                          {
+                            "x": 14.318718910217285,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 44.25947570800781
+                          },
+                          {
+                            "x": 13.306123733520508,
+                            "y": 67
+                          },
+                          {
+                            "x": 10.521489143371582,
+                            "y": 67
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled8 - Copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 13.54238822418136,
+                        "y": 34.86844694584383
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 37.38104248046875
+                          },
+                          {
+                            "x": 10.104101181030273,
+                            "y": 0
+                          },
+                          {
+                            "x": 16.187225341796875,
+                            "y": 0
+                          },
+                          {
+                            "x": 27,
+                            "y": 37.38104248046875
+                          },
+                          {
+                            "x": 15.790498733520508,
+                            "y": 70
+                          },
+                          {
+                            "x": 11.426519393920898,
+                            "y": 70
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 11.028967254408059,
+                        "y": 23.909792191435766
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 27.536996841430664
+                          },
+                          {
+                            "x": 9.306045532226562,
+                            "y": 0
+                          },
+                          {
+                            "x": 12.570528984069824,
+                            "y": 0
+                          },
+                          {
+                            "x": 22,
+                            "y": 24.997953414916992
+                          },
+                          {
+                            "x": 13.023929595947266,
+                            "y": 48
+                          },
+                          {
+                            "x": 8.580604553222656,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 14.17806399559194,
+                        "y": 35.5006985988665
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 37.11027145385742
+                          },
+                          {
+                            "x": 10.422396659851074,
+                            "y": 0
+                          },
+                          {
+                            "x": 16.19002914428711,
+                            "y": 0
+                          },
+                          {
+                            "x": 27.591161727905273,
+                            "y": 35.098304748535156
+                          },
+                          {
+                            "x": 16.726552963256836,
+                            "y": 71
+                          },
+                          {
+                            "x": 11.495444297790527,
+                            "y": 71
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite7",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Untitled7.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Untitled7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 10.55528770465995,
+                        "y": 46.3252223709068
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 36.48643112182617
+                          },
+                          {
+                            "x": 7.392819404602051,
+                            "y": 0
+                          },
+                          {
+                            "x": 13.366371154785156,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 34.553810119628906
+                          },
+                          {
+                            "x": 15.650376319885254,
+                            "y": 88.14008331298828
+                          },
+                          {
+                            "x": 4.933121681213379,
+                            "y": 87.7886962890625
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "full.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "FullColor",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "2023-01-22-1.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite8",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Color",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 5.01953125,
+                        "y": 4.9375
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "RESETtext",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "RESET",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Create the designs objects and remove the original placeholders",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "init",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UntitledExtension::ColorObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Group",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "FullColor"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"delay\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadSound"
+                  },
+                  "parameters": [
+                    "",
+                    "New sound effect2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Group",
+                        "default",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Group",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Group"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Group",
+                    "default",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    ".5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneBackground"
+                  },
+                  "parameters": [
+                    "",
+                    "\"0;0;0\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Group",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Default[Group.ObjectName()].Distance",
+                        "=",
+                        "500-Group.CenterY()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite1",
+                    "0",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite6",
+                    "3.6",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite3",
+                    "0",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite5",
+                    "0",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite2",
+                    "3.6",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite4",
+                    "3.6",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite7",
+                    "0",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UntitledExtension::CreateObject"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite8",
+                    "0",
+                    "7.2",
+                    "50",
+                    "110",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "init",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Reset if reset is clicked",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RESETtext",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Untitled scene\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Group",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Group"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Group",
+                "Moving",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"delay\"",
+                ">",
+                ".1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "channel",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"delay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "New sound effect2",
+                "Variable(channel)",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModPitchSoundChannel"
+              },
+              "parameters": [
+                "",
+                "Variable(channel)",
+                "=",
+                "Group.Variable(ID)*.05 + Group.ForceLength()*.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "channel",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Group",
+                "Group.Angle()-90",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Group",
+                "Moving",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Group",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Group"
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "@Bouh",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "Read pixels",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBhdGggZD0iTTIzLDI4Yy0xLjEsMC0yLjEtMC43LTIuNS0xLjhjMC0wLjEsMC0wLjItMC4xLTAuMmgtOC45YzAsMC4xLDAsMC4yLTAuMSwwLjJDMTEuMSwyNy4zLDEwLjEsMjgsOSwyOGMtMC42LDAtMSwwLjQtMSwxDQoJczAuNCwxLDEsMWgxNGMwLjYsMCwxLTAuNCwxLTFTMjMuNiwyOCwyMywyOHoiLz4NCjxwYXRoIGQ9Ik0yNywzSDVDMy4zLDMsMiw0LjMsMiw2djE1YzAsMS43LDEuMywzLDMsM2g2LjloOC4xSDI3YzEuNywwLDMtMS4zLDMtM1Y2QzMwLDQuMywyOC43LDMsMjcsM3ogTTEwLjQsMTlsNC42LTQuNmwxLjMsMS4zDQoJYzAuNCwwLjQsMSwwLjQsMS40LDBsMC4yLTAuMmwzLDMuNUgxMC40eiBNMjMsMThjMCwwLjEsMCwwLjIsMCwwLjJsLTQuMi00LjlDMTguNiwxMy4xLDE4LjMsMTMsMTgsMTNjLTAuMywwLTAuNSwwLjEtMC43LDAuMw0KCUwxNywxMy42bC0xLjMtMS4zYy0wLjQtMC40LTEtMC40LTEuNCwwTDksMTcuNlY5YzAtMC42LDAuNC0xLDEtMWgxMmMwLjYsMCwxLDAuNCwxLDFWMTh6Ii8+DQo8L3N2Zz4NCg==",
+      "name": "ReadPixels",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/Computers and Hardware_screen_computer_image.svg",
+      "shortDescription": "Read the values of pixels on the screen.",
+      "version": "0.0.6",
+      "description": [
+        "This extension allow to read pixels on screen.",
+        "",
+        "| Expression | Argument  | Type returned |",
+        "|--|--|--|",
+        "|  ReadPixelRed(x, y)  | position x: number, position y: number | number (0-255) |",
+        "|  ReadPixelGreen(x, y)  | position x: number, position  y: number | number (0-255) |",
+        "|  ReadPixelBlue(x, y)  | position x: number, position y: number | number (0-255) |",
+        "|  ReadPixelAlpha(x, y)  | position x: number, position y: number | number (0-255) |"
+      ],
+      "origin": {
+        "identifier": "ReadPixels",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "pixel",
+        "colors",
+        "screen",
+        "gl",
+        "webgl"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Return the alpha component of the pixel at the specified position.",
+          "fullName": "Read pixel alpha",
+          "functionType": "Expression",
+          "name": "ReadPixelAlpha",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "if (!canvas) return;",
+                "",
+                "const canvasType = gdjs._readPixels.getCanvasType(canvas);",
+                "let x = eventsFunctionContext.getArgument(\"PositionX\");",
+                "let y = eventsFunctionContext.getArgument(\"PositionY\");",
+                "let layer = runtimeScene.getLayer(\"\");",
+                "let position = layer.convertInverseCoords(x, y);",
+                "",
+                "if (canvasType === \"webgl\" || canvasType === \"webgl2\" || canvasType === \"experimental-webgl\") {",
+                "    eventsFunctionContext.returnValue = gdjs._readPixels.getPixelColor(canvas, 3, position[0], position[1]);",
+                "    // 3 is for alpha in pixel buffer",
+                "} else if (canvasType === \"2d\") {",
+                "    let ctx = canvas.getContext(\"2d\");",
+                "    let data = ctx.getImageData(position[0], position[1], 1, 1).data;",
+                "    eventsFunctionContext.returnValue = data[3];",
+                "} else {",
+                "    eventsFunctionContext.returnValue = 0;",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Position X",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position Y",
+              "name": "PositionY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the blue component of the pixel at the specified position.",
+          "fullName": "Read pixel blue",
+          "functionType": "Expression",
+          "name": "ReadPixelBlue",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "if (!canvas) return;",
+                "",
+                "const canvasType = gdjs._readPixels.getCanvasType(canvas);",
+                "let x = eventsFunctionContext.getArgument(\"PositionX\");",
+                "let y = eventsFunctionContext.getArgument(\"PositionY\");",
+                "let layer = runtimeScene.getLayer(\"\");",
+                "let position = layer.convertInverseCoords(x, y);",
+                "",
+                "if (canvasType === \"webgl\" || canvasType === \"webgl2\" || canvasType === \"experimental-webgl\") {",
+                "    eventsFunctionContext.returnValue = gdjs._readPixels.getPixelColor(canvas, 2, position[0], position[1]);",
+                "    // 2 is for blue in pixel buffer",
+                "} else if (canvasType === \"2d\") {",
+                "    let ctx = canvas.getContext(\"2d\");",
+                "    let data = ctx.getImageData(position[0], position[1], 1, 1).data;",
+                "    eventsFunctionContext.returnValue = data[2];",
+                "} else {",
+                "    eventsFunctionContext.returnValue = 0;",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Position X",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position Y",
+              "name": "PositionY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the green component of the pixel at the specified position.",
+          "fullName": "Read pixel green",
+          "functionType": "Expression",
+          "name": "ReadPixelGreen",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "if (!canvas) return;",
+                "",
+                "const canvasType = gdjs._readPixels.getCanvasType(canvas);",
+                "let x = eventsFunctionContext.getArgument(\"PositionX\");",
+                "let y = eventsFunctionContext.getArgument(\"PositionY\");",
+                "let layer = runtimeScene.getLayer(\"\");",
+                "let position = layer.convertInverseCoords(x, y);",
+                "",
+                "if (canvasType === \"webgl\" || canvasType === \"webgl2\" || canvasType === \"experimental-webgl\") {",
+                "    eventsFunctionContext.returnValue = gdjs._readPixels.getPixelColor(canvas, 1, position[0], position[1]);",
+                "    // 1 is for green in pixel buffer",
+                "} else if (canvasType === \"2d\") {",
+                "    let ctx = canvas.getContext(\"2d\");",
+                "    let data = ctx.getImageData(position[0], position[1], 1, 1).data;",
+                "    eventsFunctionContext.returnValue = data[1];",
+                "} else {",
+                "    eventsFunctionContext.returnValue = 0;",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Position X",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position Y",
+              "name": "PositionY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Return the red component of the pixel at the specified position.",
+          "fullName": "Read pixel red",
+          "functionType": "Expression",
+          "name": "ReadPixelRed",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "if (!canvas) return;",
+                "",
+                "const canvasType = gdjs._readPixels.getCanvasType(canvas);",
+                "let x = eventsFunctionContext.getArgument(\"PositionX\");",
+                "let y = eventsFunctionContext.getArgument(\"PositionY\");",
+                "let layer = runtimeScene.getLayer(\"\");",
+                "let position = layer.convertInverseCoords(x, y);",
+                "",
+                "if (canvasType === \"webgl\" || canvasType === \"webgl2\" || canvasType === \"experimental-webgl\") {",
+                "    eventsFunctionContext.returnValue = gdjs._readPixels.getPixelColor(canvas, 0, position[0], position[1]);",
+                "    // 0 is for red, in pixel buffer",
+                "} else if (canvasType === \"2d\") {",
+                "    let ctx = canvas.getContext(\"2d\");",
+                "    let data = ctx.getImageData(position[0], position[1], 1, 1).data;",
+                "    eventsFunctionContext.returnValue = data[0];",
+                "} else {",
+                "    eventsFunctionContext.returnValue = 0;",
+                "}"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Position X",
+              "name": "PositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Position Y",
+              "name": "PositionY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "// Define an new private object javascript for this extension",
+                "gdjs._readPixels = {};",
+                "",
+                "/** ",
+                " * @param {HTMLCanvasElement} canvas",
+                " */",
+                "gdjs._readPixels.getCanvasType = function (canvas) {",
+                "    const is2d = canvas.getContext(\"2d\");",
+                "    const isBitmap = canvas.getContext(\"bitmaprenderer\");",
+                "    const isWebGL1 = canvas.getContext(\"webgl\");",
+                "    const isWebGL2 = canvas.getContext(\"webgl2\");",
+                "    const isExperimentalWebGL = canvas.getContext(\"experimental-webgl\");",
+                "",
+                "    return is2d ?",
+                "        \"2d\" : isBitmap ?",
+                "            \"bitmaprenderer\" : isWebGL1 ?",
+                "                \"webgl\" : isWebGL2 ?",
+                "                    \"webgl2\" : isExperimentalWebGL ?",
+                "                        \"experimental-webgl\" : null;",
+                "}",
+                "",
+                "/**",
+                " * @param {HTMLCanvasElement} canvas",
+                " * @param {number} colorIndex Should be 0, 1, 2 or 3, for red, green, blue or alpha channel.",
+                " * @param {number} positionX The X position of the pixel on the canvas to read",
+                " * @param {number} positionY The Y position of the pixel on the canvas to read",
+                " */",
+                "gdjs._readPixels.getPixelColor = function (canvas, colorIndex, positionX, positionY) {",
+                "",
+                "    const gl = canvas.getContext(\"webgl2\") ||  canvas.getContext(\"webgl\") || canvas.getContext(\"experimental-webgl\") ;",
+                "",
+                "    const data = new Uint8Array(1 * 4); // [255,255,255,255] RGBA",
+                "",
+                "    const invertedPositionY = gl.drawingBufferHeight - positionY;",
+                "    // mandatory because textures in webGL are invert before rendering in the canvas,",
+                "    // otherwise the bottom left corner will be used",
+                "",
+                "    gl.readPixels(positionX, invertedPositionY, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, data);",
+                "    // Read 1 pixel and store it in data.",
+                "",
+                "    return data[colorIndex];",
+                "}",
+                "",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "UntitledExtension",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Create Object",
+          "fullName": "Create Object",
+          "functionType": "Action",
+          "name": "CreateObject",
+          "sentence": "Create Object _PARAM1_ _PARAM2_ _PARAM3_ _PARAM4_ _PARAM5_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t::Angle",
+                    "=",
+                    "GetArgumentAsNumber(\"AngleStart\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t::Distance",
+                    "=",
+                    "Variable(Default[Obj.ObjectName()].Distance)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t::Counter",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "GetArgumentAsNumber(\"Copies\")",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Obj",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutourPos"
+                  },
+                  "parameters": [
+                    "Obj",
+                    "500",
+                    "500",
+                    "Variable(t::Distance)",
+                    "Variable(t::Angle)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t::Angle",
+                    "+",
+                    "GetArgumentAsNumber(\"Gap\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Obj",
+                    "=",
+                    "AngleBetweenPositions(Obj.CenterX(),Obj.CenterY(),500,500)-90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Obj"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Obj",
+                    "ID",
+                    "=",
+                    "Variable(t::Counter)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "t::Counter",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Obj",
+              "name": "Obj",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "AngleStart",
+              "name": "AngleStart",
+              "type": "expression"
+            },
+            {
+              "description": "Gap",
+              "name": "Gap",
+              "type": "expression"
+            },
+            {
+              "description": "Copies",
+              "name": "Copies",
+              "type": "expression"
+            },
+            {
+              "description": "Distance",
+              "name": "Distance",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Color Objects",
+          "fullName": "Color Objects",
+          "functionType": "Action",
+          "name": "ColorObjects",
+          "sentence": "Color Objects _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Obj",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "t::Color",
+                        "=",
+                        "ToString(ReadPixels::ReadPixelRed(Obj.CenterX(), Obj.CenterY())) + \";\" + \nToString(ReadPixels::ReadPixelGreen(Obj.CenterX(), Obj.CenterY())) + \";\" + \nToString(ReadPixels::ReadPixelBlue(Obj.CenterX(), Obj.CenterY())) "
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Obj",
+                        "VariableString(t::Color)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Obj",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Obj",
+              "name": "Obj",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Color Objects",
+          "fullName": "Color Object",
+          "functionType": "Action",
+          "name": "ColorObject",
+          "sentence": "Color Objects _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "t::Color",
+                    "=",
+                    "ToString(ReadPixels::ReadPixelRed(Obj.CenterX(), Obj.CenterY())) + \";\" + \nToString(ReadPixels::ReadPixelGreen(Obj.CenterX(), Obj.CenterY())) + \";\" + \nToString(ReadPixels::ReadPixelBlue(Obj.CenterX(), Obj.CenterY())) "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "Obj",
+                    "VariableString(t::Color)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Obj",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Obj",
+              "name": "Obj",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
